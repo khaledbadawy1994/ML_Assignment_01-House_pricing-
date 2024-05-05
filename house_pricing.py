@@ -162,8 +162,6 @@ housing_cat_1hot
 
 cat_encoder.categories_
 
-*Feature Scaling *
-
 housing_num.describe().loc[["min", "max"]]
 
 # MinMaxScaler
