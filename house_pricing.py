@@ -103,8 +103,6 @@ housing.quantile([0.25, 0.5, 0.75, 0.9, 0.95, 0.99, 1])
 train_features = train_set.drop("median_house_value", axis=1)
 train_labels = train_set["median_house_value"].copy()
 
-*Data Cleaning *
-
 # Missing Values
 
 test_set.total_bedrooms.isnull().sum()
