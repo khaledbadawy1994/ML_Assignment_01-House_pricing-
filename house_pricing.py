@@ -187,8 +187,6 @@ housing_num_std_scaled
 
 housing_num_std_scaled.mean(axis=0), housing_num_std_scaled.std(axis=0)
 
-*Transformation Pipelines *
-
 # num_pipeline
 
 from sklearn.pipeline import Pipeline
