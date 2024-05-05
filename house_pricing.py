@@ -456,4 +456,3 @@ prediction = lin_reg.predict(features_prepared)[0]
 st.subheader('Prediction')
 st.markdown('''# $ {} '''.format(round(prediction), 2))
 
-!streamlit run app.py
